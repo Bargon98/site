@@ -1,0 +1,169 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,*:before,*:after{
+	moz-box-sizing: border-box;
+	webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,:active{outline: none};
+a:focus,a:active{outline: none};
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	font-family: Arial, "Helvetica Neue" Helvetica, sans-serif;
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	ms-text-size-adjust: 100%;
+	moz-text-size-adjust: 100%;
+	webkit-text-size-adjust: 100%;
+	color: #333;
+	padding: 30px;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-liner {padding:0; border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+.list{
+	padding: 0 0 40px 0;
+}
+
+li{
+	font-size: 20px;
+  	font-family: "Arial";
+  	color: rgb(39, 61, 70);
+  	line-height: 1.8;
+  	text-align: left;
+}
+
+.ul li:before {
+	content: url('../img/check icon.png');
+	padding: 0 10px 0 0;
+}
+
+.ul li:nth-child(1){
+	text-decoration: line-through;
+}
+
+.ul li:nth-child(2){
+	font-weight: bold;
+}
+
+.ul li:nth-child(3){
+	font-style: italic;
+}
+
+.ul li:nth-child(4){
+	text-transform: uppercase;
+}
+
+.ul li:nth-child(1):hover{
+	text-decoration: none;
+}
+
+.ul li:nth-child(2):hover:before{
+	content: url('../img/check icon red.png');
+}
+
+.ul li:nth-child(2):hover{
+	color: red;
+	font-weight: normal; 
+}
+
+.ul li:nth-child(3):hover{
+	font-style: normal;
+}
+
+.ul li:nth-child(4):hover{
+	text-transform: none;
+}
+
+a:visible{
+	color: white;
+}
+
+a:visited{
+	color: white;
+}
+
+a:hover{
+	color: white;
+}
+
+a:active{
+	color: white;
+}
+
+.Link{
+	font-size: 14px;
+	display: block;
+	background-color: #80b7b3;
+	width: 200px;
+	height: 40px;
+	padding: 15px 30px;
+	border-radius: 25px;
+	box-shadow: 1px 5px 25px 1px #80b7b3;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+span:after{
+	content: url('../img/Shape 2.png');
+}
+
+.Link:hover{
+	background-color: #3a5856;
+}
+
+.Link:active{
+	background-color: #818181;
+	box-shadow: none;
+}
+
+.input_text{
+	border: 1px solid #666;
+	margin: 40px 0 40px 0;
+	padding: 10px 40px;
+}
+
+.input_text:focus{
+	box-shadow: 0 0 18px #80b7b3;
+}
+
+.div_p p:nth-child(1):first-line {
+	color: red;
+}
+
+.div_p p:nth-child(1):first-letter {
+	color: green;
+
+}
+
+.div_p p:nth-child(1):hover:first-letter {
+	color: purple;
+
+}
+.div_p p:nth-child(2) {
+	color: purple;
+}
+
+.div_p p:nth-child(2):active {
+	color: black;
+}
